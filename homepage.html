@@ -48,11 +48,28 @@
 
 <body>
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Police Brutality')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Gun Violence')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Gang Violence')">Tokyo</button>
+  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'Police Brutality')">Police Brutality</button>
+  <button class="tablinks" onclick="openCity(event, 'Gun Violence')">Gun Violence</button>
+  <button class="tablinks" onclick="openCity(event, 'Gang Violence')">Gang Violence</button>
+  <button class="tablinks" onclick="openCity(event, 'Recent News')">Recent News</button>
+  <button class="tablinks" onclick="openCity(event, 'Chat Space')">Chat Space</button>
 </div>
 
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <h1>
+    Ending Violence in the Streets:
+  </h1>
+  <div>
+    <h3>
+      Welcome to our website centered around educating the public about police brutality, gun violence, and gang violence. We are also dedicated to establishing a safe space for discussions and victims
+    </h3>
+  </div>
+
+  </html>
+
+</div>
 
 <div id="Police Brutality" class="tabcontent">
   <h3>Police Brutality</h3>
@@ -68,8 +85,20 @@
   <h3>Gang Violence</h3>
   <p>Tokyo is the capital of Japan.</p>
 </div>
+
+<div id="Recent News" class="tabcontent">
+  <h3>Junior</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="Chat Space" class="tabcontent">
+  <h3> Write Your Thoughts</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+
 <script>
-/*function openCity(evt, cityName) {
+function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -82,17 +111,10 @@
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
-*/
+
 </script>
 
 
-<h1>
-  Ending Violence in the Streets:
-</h1>
-<div>
-  <h3>
-    Welcome to our website centered around educating the public about police brutality, gun violence, and gang violence. We are also dedicated to establishing a safe space for discussions and victims
-  </h3>
-</div>
+
 
 </html>
