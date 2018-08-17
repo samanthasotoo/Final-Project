@@ -55,8 +55,17 @@ button{
   transition: all0 0.5s ease-in-out;
 }
 
-button:hover
- {
-  background-color: #333;
-  color: #999;
+
+
+#tamirice:hover {
+    margin: 100px;
+    transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+}
+
+#ericgarner:hover {
+    margin: 100px;
+    transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
