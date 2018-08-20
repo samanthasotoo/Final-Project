@@ -8,8 +8,11 @@ const drone = new ScaleDrone(CLIENT_ID, {
     color: getRandomColor(),
   },
 });
+ messsages = []
 
 let members = [];
+
+
 
 drone.on('open', error => {
   if (error) {
@@ -120,7 +123,6 @@ function createMessageElement(text, member) {
   el.className = 'message';
   return el;
 }
-
 function addMessageToListDOM(text, member) {
   const el = DOM.messages;
   const wasTop = el.scrollTop === el.scrollHeight - el.clientHeight;
